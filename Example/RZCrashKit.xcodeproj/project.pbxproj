@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4297759920DB7C24002F4497 /* RZCrashProtectHandler+CrashInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4297759820DB7C24002F4497 /* RZCrashProtectHandler+CrashInfo.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		22F28CA6B35A679A33FFBDC8 /* Pods-RZCrashKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RZCrashKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RZCrashKit_Example/Pods-RZCrashKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4297759720DB7C24002F4497 /* RZCrashProtectHandler+CrashInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RZCrashProtectHandler+CrashInfo.h"; sourceTree = "<group>"; };
+		4297759820DB7C24002F4497 /* RZCrashProtectHandler+CrashInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RZCrashProtectHandler+CrashInfo.m"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RZCrashKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RZCrashKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,11 +65,11 @@
 		7B9C8F8F418CBA2A7A7907C8 /* Pods-RZCrashKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RZCrashKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RZCrashKit_Tests/Pods-RZCrashKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7EA06055C3C4BF29307FC8BB /* Pods-RZCrashKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RZCrashKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RZCrashKit_Example/Pods-RZCrashKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9AD16A7EA8DF9C35AD2C089D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9AD16A7EA8DF9C35AD2C089D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B90C4FB9F638409FD33BDF88 /* Pods_RZCrashKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RZCrashKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE218ACDACF5D8AE9C4EEC4 /* Pods-RZCrashKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RZCrashKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RZCrashKit_Tests/Pods-RZCrashKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C54968D910AB22BA80DD677D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EDA2DBBBEB89DF7748C183DE /* RZCrashKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RZCrashKit.podspec; path = ../RZCrashKit.podspec; sourceTree = "<group>"; };
+		C54968D910AB22BA80DD677D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EDA2DBBBEB89DF7748C183DE /* RZCrashKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RZCrashKit.podspec; path = ../RZCrashKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* RZViewController.h */,
 				6003F5A6195388D20070C39A /* RZViewController.m */,
+				4297759720DB7C24002F4497 /* RZCrashProtectHandler+CrashInfo.h */,
+				4297759820DB7C24002F4497 /* RZCrashProtectHandler+CrashInfo.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -355,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4297759920DB7C24002F4497 /* RZCrashProtectHandler+CrashInfo.m in Sources */,
 				6003F59E195388D20070C39A /* RZAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* RZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
