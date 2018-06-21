@@ -1,5 +1,5 @@
 PODS:
-  - RZCrashKit (0.7.8.5)
+  - RZCrashKit (0.7.8.6)
 
 DEPENDENCIES:
   - RZCrashKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RZCrashKit: 3f64868bde8df85138342ec0407c1fa385c0309c
+  RZCrashKit: f60d133da21f3d622cc4eecec0606aa58619eece
 
 PODFILE CHECKSUM: 86e956c028491dd4e895659ac9a7b44396c79caa
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RZCrashKit'
-  s.version          = '0.7.8.5'
+  s.version          = '0.7.8.6'
   s.summary          = '针对iOS开发过程中可能出现的闪退处理'
 
 # This description is used to generate tags and improve search results.
