@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A89CA8493ACC04F204B4694BB07390 /* RZCrashProtectHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C4269379C6BA712C220B116B0511287A /* RZCrashProtectHandler.m */; };
+		1D415BA61E859B255B06985D49BC2262 /* NSObject+RZCrashProtect.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DEAF87D164F4BBF07F7F793BC4362D /* NSObject+RZCrashProtect.m */; };
 		212A5537C9714859998D4F6D790F4E50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		2B8DCF24CED2AD874E68A98BBFDC59A3 /* Pods-RZCrashKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 421E3C94CCF60D596AB23FEF19F7DEF3 /* Pods-RZCrashKit_Example-dummy.m */; };
-		6249377871BEADC38FA2B161303F1B71 /* RZCrashProtectHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 79AB50AC6DDB113C28EBC237F27513FD /* RZCrashProtectHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6D5FDB0B59FCAA52F03F596AED87A86B /* Pods-RZCrashKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA501454DB8536A414C0C28E12596BEA /* Pods-RZCrashKit_Tests-dummy.m */; };
+		75A52E3EACFFB3BB4F6617D2F9334E94 /* NSObject+RZCrashProtect.h in Headers */ = {isa = PBXBuildFile; fileRef = B703EC01C216559B664B055FD981774E /* NSObject+RZCrashProtect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75D0D8933A56EB6C918661BBF92385F9 /* RZCrashKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DBC71C451D8ED0C709EE94AB067E08 /* RZCrashKit-dummy.m */; };
+		7BD56F2789620449F1EEEA50FC61F14F /* RZCrashKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8A1766E8B9A5D756EB4BAE6B0B570D /* RZCrashKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F4F2EF69F5819F91E29C539C9D7A4BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		9C3330B4408D4D2AE8D12CC95F7A2AD3 /* NSObject+RZCrashProtect.h in Headers */ = {isa = PBXBuildFile; fileRef = 454E2B689D18C2A826AE647473FD58C2 /* NSObject+RZCrashProtect.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A1721B67B5EAA35D00FBC75911B63759 /* Pods-RZCrashKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42DDFAE93D6A11084A37B2ACEAEFE7F7 /* Pods-RZCrashKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABF8BC61D671D772A3E34E4891DBDC8E /* Pods-RZCrashKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8AC4254FC342CD9FB43511F5189DE9B /* Pods-RZCrashKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C89C8741E2E06B9BD0A2195B7124A9EB /* RZCrashProtectHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8468F50D3B16510EE2CBF4F8D39AE0EA /* RZCrashProtectHandler.m */; };
-		CC7518F44A1241BBFECD43971E08DC64 /* RZCrashKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A78767BB55A0F24DDD777CFEF9359A /* RZCrashKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4AFD631EA36130DDC61B2379565EB6F /* RZCrashKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C01AE5CADD2B5ABFEBD2BAF61A75418 /* RZCrashKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C966FB6FA48E54461D321B0024B95CA1 /* RZCrashProtectHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B6FC4F569DA7B4678D76318A73CB8C /* RZCrashProtectHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D00B9611A3F56FF03B56912BB3DB2331 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		DF42870CF3840A4C5531109C6C48BF57 /* RZCrashKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A02F9D180104536CF55E694C6C3A4E /* RZCrashKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F50743EDE589ED1947DFC0B51BF1460A /* RZCrashKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43EECA30875BB208672E9EB855438A1B /* RZCrashKit-dummy.m */; };
-		FD0E479FE3AA4A89936332EA299599D4 /* NSObject+RZCrashProtect.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F80B9881E972478DDCC197F4B6806B /* NSObject+RZCrashProtect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,18 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		130B2001E3D1251794D5C215E2A54722 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		052BE2D7E08C92E0FB719D4072E672CD /* RZCrashKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RZCrashKit-prefix.pch"; sourceTree = "<group>"; };
 		18C7A7D4FDE6F030744062726D58412D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21C02254B829366B9F843A10B90494A0 /* RZCrashKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RZCrashKit.xcconfig; sourceTree = "<group>"; };
-		26A02F9D180104536CF55E694C6C3A4E /* RZCrashKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RZCrashKit-umbrella.h"; sourceTree = "<group>"; };
 		2A538FC5DC67094332CE595537C1882C /* Pods-RZCrashKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RZCrashKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		31DEAF87D164F4BBF07F7F793BC4362D /* NSObject+RZCrashProtect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RZCrashProtect.m"; path = "RZCrashKit/Headers/NSObject+RZCrashProtect.m"; sourceTree = "<group>"; };
 		31E82875F11825DDD94D7B3C329CF0CB /* Pods-RZCrashKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RZCrashKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		32D1246636D6A801DBBC585561496D90 /* RZCrashKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RZCrashKit-prefix.pch"; sourceTree = "<group>"; };
-		40A78767BB55A0F24DDD777CFEF9359A /* RZCrashKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RZCrashKit.h; sourceTree = "<group>"; };
+		3863AAA9F36994F757C1E0BA48FC534B /* RZCrashKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RZCrashKit.xcconfig; sourceTree = "<group>"; };
+		3C01AE5CADD2B5ABFEBD2BAF61A75418 /* RZCrashKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RZCrashKit-umbrella.h"; sourceTree = "<group>"; };
 		421E3C94CCF60D596AB23FEF19F7DEF3 /* Pods-RZCrashKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RZCrashKit_Example-dummy.m"; sourceTree = "<group>"; };
 		42DDFAE93D6A11084A37B2ACEAEFE7F7 /* Pods-RZCrashKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RZCrashKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		43EECA30875BB208672E9EB855438A1B /* RZCrashKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RZCrashKit-dummy.m"; sourceTree = "<group>"; };
-		454E2B689D18C2A826AE647473FD58C2 /* NSObject+RZCrashProtect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+RZCrashProtect.h"; sourceTree = "<group>"; };
 		4BC9C05DA4BB72A79A9FDFFBC3CC566A /* Pods-RZCrashKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RZCrashKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		56196F4043D31281082699ABF6374D15 /* Pods-RZCrashKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RZCrashKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,26 +57,29 @@
 		69C8AF7857E182EF66BB564EB8A08286 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A406F6ABB858348C9829AF14393B231 /* Pods-RZCrashKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RZCrashKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6EA8FFBC73C070D706EDE1066E5F5C7E /* Pods-RZCrashKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RZCrashKit_Tests.modulemap"; sourceTree = "<group>"; };
+		70DBC71C451D8ED0C709EE94AB067E08 /* RZCrashKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RZCrashKit-dummy.m"; sourceTree = "<group>"; };
+		714DAE1CED065E7377996D6D42A264FF /* RZCrashKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RZCrashKit.modulemap; sourceTree = "<group>"; };
 		7545EF6D7F74ACEFE85F1284CF96DA25 /* Pods_RZCrashKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RZCrashKit_Tests.framework; path = "Pods-RZCrashKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		79AB50AC6DDB113C28EBC237F27513FD /* RZCrashProtectHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RZCrashProtectHandler.h; sourceTree = "<group>"; };
-		8468F50D3B16510EE2CBF4F8D39AE0EA /* RZCrashProtectHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RZCrashProtectHandler.m; sourceTree = "<group>"; };
-		89F80B9881E972478DDCC197F4B6806B /* NSObject+RZCrashProtect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RZCrashProtect.m"; sourceTree = "<group>"; };
+		7B8A1766E8B9A5D756EB4BAE6B0B570D /* RZCrashKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZCrashKit.h; path = RZCrashKit/Headers/RZCrashKit.h; sourceTree = "<group>"; };
 		8E5182ECA2F8834074A2CD602B33A45A /* Pods-RZCrashKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RZCrashKit_Example-resources.sh"; sourceTree = "<group>"; };
 		9383DFCF260ED22433CDE00FAFD67A8C /* Pods-RZCrashKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RZCrashKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EB3B905CAFDAFCFC416A1C32537C482 /* RZCrashKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RZCrashKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A43A0C492FEC97E5A80C9BF4221894FE /* Pods_RZCrashKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RZCrashKit_Example.framework; path = "Pods-RZCrashKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A68953CADE5386B7AFCA7D5F4D2DC465 /* RZCrashKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RZCrashKit.modulemap; sourceTree = "<group>"; };
+		A664BE2725B8355160D13018B7675BF0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A9AEA2701F16BA3CB72B99CEDF44B321 /* Pods-RZCrashKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RZCrashKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B0BA59F46CFCD51ED45DB19755536C1F /* Pods-RZCrashKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RZCrashKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B703EC01C216559B664B055FD981774E /* NSObject+RZCrashProtect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RZCrashProtect.h"; path = "RZCrashKit/Headers/NSObject+RZCrashProtect.h"; sourceTree = "<group>"; };
+		BA01B4D1E5DE38CBFFE732079F3C833D /* RZCrashKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RZCrashKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC2DCDE5D79EDA53CFA2FCD22204CEFF /* Pods-RZCrashKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RZCrashKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4269379C6BA712C220B116B0511287A /* RZCrashProtectHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZCrashProtectHandler.m; path = RZCrashKit/Headers/RZCrashProtectHandler.m; sourceTree = "<group>"; };
 		CB4D527067162FAFD3996464C9F0CB46 /* Pods-RZCrashKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RZCrashKit_Example.modulemap"; sourceTree = "<group>"; };
 		CD2B7FB62B218F2170935436CC77701B /* Pods-RZCrashKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RZCrashKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D5644A496AEE7C528F53431A9732A1FC /* Pods-RZCrashKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RZCrashKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DA501454DB8536A414C0C28E12596BEA /* Pods-RZCrashKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RZCrashKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		E6B6FC4F569DA7B4678D76318A73CB8C /* RZCrashProtectHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZCrashProtectHandler.h; path = RZCrashKit/Headers/RZCrashProtectHandler.h; sourceTree = "<group>"; };
 		E8AC4254FC342CD9FB43511F5189DE9B /* Pods-RZCrashKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RZCrashKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		F9AC3D08B0A417DA78AA3062208F29CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		FE6C1C85D000072458AB3608A576F916 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED08EF72D45DEBB353EF23B86D509DA4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FFDF04C9A823E66465600E61E3EF4CDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +110,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07FA54DFF74FC2127C385B31600336FA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFE719E57374A4537E9D9BB62FB6B47C /* RZCrashKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3B905BC3A42820C33F048472454BB62F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A664BE2725B8355160D13018B7675BF0 /* LICENSE */,
+				ED08EF72D45DEBB353EF23B86D509DA4 /* README.md */,
+				BA01B4D1E5DE38CBFFE732079F3C833D /* RZCrashKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		3B9B36EB2CA811BF181E588525C7777C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,25 +143,6 @@
 				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		5E7AB6AF07D1804E9D17FFC7CA561F89 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F9AC3D08B0A417DA78AA3062208F29CF /* LICENSE */,
-				130B2001E3D1251794D5C215E2A54722 /* README.md */,
-				9EB3B905CAFDAFCFC416A1C32537C482 /* RZCrashKit.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		6B3898A1EA577F5AF4A70EE4032DF242 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				40A78767BB55A0F24DDD777CFEF9359A /* RZCrashKit.h */,
-			);
-			name = Headers;
-			path = RZCrashKit/Headers;
 			sourceTree = "<group>";
 		};
 		6B696EEB3309C6CC2899F2ED8EFD71DC /* Products */ = {
@@ -178,7 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BDF999883CB31792B82ACAED0D6350C0 /* Development Pods */,
+				07FA54DFF74FC2127C385B31600336FA /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				6B696EEB3309C6CC2899F2ED8EFD71DC /* Products */,
 				3B9B36EB2CA811BF181E588525C7777C /* Targets Support Files */,
@@ -203,18 +202,6 @@
 			path = "Target Support Files/Pods-RZCrashKit_Example";
 			sourceTree = "<group>";
 		};
-		ACE59ECABD7F57A0A6D9D5026EF3BF13 /* RZCrashKit */ = {
-			isa = PBXGroup;
-			children = (
-				DCCDB8DC7EF354359B8C5272F5D7E4A5 /* Classes */,
-				6B3898A1EA577F5AF4A70EE4032DF242 /* Headers */,
-				5E7AB6AF07D1804E9D17FFC7CA561F89 /* Pod */,
-				C117D07A70A251D3018EFF757D5B9027 /* Support Files */,
-			);
-			name = RZCrashKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,43 +210,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BDF999883CB31792B82ACAED0D6350C0 /* Development Pods */ = {
+		BFE719E57374A4537E9D9BB62FB6B47C /* RZCrashKit */ = {
 			isa = PBXGroup;
 			children = (
-				ACE59ECABD7F57A0A6D9D5026EF3BF13 /* RZCrashKit */,
+				B703EC01C216559B664B055FD981774E /* NSObject+RZCrashProtect.h */,
+				31DEAF87D164F4BBF07F7F793BC4362D /* NSObject+RZCrashProtect.m */,
+				7B8A1766E8B9A5D756EB4BAE6B0B570D /* RZCrashKit.h */,
+				E6B6FC4F569DA7B4678D76318A73CB8C /* RZCrashProtectHandler.h */,
+				C4269379C6BA712C220B116B0511287A /* RZCrashProtectHandler.m */,
+				3B905BC3A42820C33F048472454BB62F /* Pod */,
+				C7F6CA8D13103866C3D0C73E5834B300 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = RZCrashKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		C117D07A70A251D3018EFF757D5B9027 /* Support Files */ = {
+		C7F6CA8D13103866C3D0C73E5834B300 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FE6C1C85D000072458AB3608A576F916 /* Info.plist */,
-				A68953CADE5386B7AFCA7D5F4D2DC465 /* RZCrashKit.modulemap */,
-				21C02254B829366B9F843A10B90494A0 /* RZCrashKit.xcconfig */,
-				43EECA30875BB208672E9EB855438A1B /* RZCrashKit-dummy.m */,
-				32D1246636D6A801DBBC585561496D90 /* RZCrashKit-prefix.pch */,
-				26A02F9D180104536CF55E694C6C3A4E /* RZCrashKit-umbrella.h */,
+				FFDF04C9A823E66465600E61E3EF4CDD /* Info.plist */,
+				714DAE1CED065E7377996D6D42A264FF /* RZCrashKit.modulemap */,
+				3863AAA9F36994F757C1E0BA48FC534B /* RZCrashKit.xcconfig */,
+				70DBC71C451D8ED0C709EE94AB067E08 /* RZCrashKit-dummy.m */,
+				052BE2D7E08C92E0FB719D4072E672CD /* RZCrashKit-prefix.pch */,
+				3C01AE5CADD2B5ABFEBD2BAF61A75418 /* RZCrashKit-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/RZCrashKit";
 			sourceTree = "<group>";
 		};
-		DCCDB8DC7EF354359B8C5272F5D7E4A5 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				454E2B689D18C2A826AE647473FD58C2 /* NSObject+RZCrashProtect.h */,
-				89F80B9881E972478DDCC197F4B6806B /* NSObject+RZCrashProtect.m */,
-				79AB50AC6DDB113C28EBC237F27513FD /* RZCrashProtectHandler.h */,
-				8468F50D3B16510EE2CBF4F8D39AE0EA /* RZCrashProtectHandler.m */,
-			);
-			name = Classes;
-			path = RZCrashKit/Classes;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		10A4244C890CE39DF6C68C053DE69EDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A52E3EACFFB3BB4F6617D2F9334E94 /* NSObject+RZCrashProtect.h in Headers */,
+				B4AFD631EA36130DDC61B2379565EB6F /* RZCrashKit-umbrella.h in Headers */,
+				7BD56F2789620449F1EEEA50FC61F14F /* RZCrashKit.h in Headers */,
+				C966FB6FA48E54461D321B0024B95CA1 /* RZCrashProtectHandler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		11D5FCD8B5A1186396DE241AA0808F78 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,17 +266,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABF8BC61D671D772A3E34E4891DBDC8E /* Pods-RZCrashKit_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E64A41E5255A3F66B14093018ADF038D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9C3330B4408D4D2AE8D12CC95F7A2AD3 /* NSObject+RZCrashProtect.h in Headers */,
-				DF42870CF3840A4C5531109C6C48BF57 /* RZCrashKit-umbrella.h in Headers */,
-				CC7518F44A1241BBFECD43971E08DC64 /* RZCrashKit.h in Headers */,
-				6249377871BEADC38FA2B161303F1B71 /* RZCrashProtectHandler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,9 +312,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92C60EF94735E20E01CA978C5098579C /* Build configuration list for PBXNativeTarget "RZCrashKit" */;
 			buildPhases = (
-				F7AD05606B57B85CEE77682F15519091 /* Sources */,
+				60310353507B3F55BE04B4D86D832765 /* Sources */,
 				1D6E89BE05CC55F0152EC35A2AED9381 /* Frameworks */,
-				E64A41E5255A3F66B14093018ADF038D /* Headers */,
+				10A4244C890CE39DF6C68C053DE69EDD /* Headers */,
 			);
 			buildRules = (
 			);
@@ -372,6 +354,16 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		60310353507B3F55BE04B4D86D832765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D415BA61E859B255B06985D49BC2262 /* NSObject+RZCrashProtect.m in Sources */,
+				75D0D8933A56EB6C918661BBF92385F9 /* RZCrashKit-dummy.m in Sources */,
+				18A89CA8493ACC04F204B4694BB07390 /* RZCrashProtectHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9D49B795B07450A6FE8E782469081B04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -385,16 +377,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D5FDB0B59FCAA52F03F596AED87A86B /* Pods-RZCrashKit_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7AD05606B57B85CEE77682F15519091 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FD0E479FE3AA4A89936332EA299599D4 /* NSObject+RZCrashProtect.m in Sources */,
-				F50743EDE589ED1947DFC0B51BF1460A /* RZCrashKit-dummy.m in Sources */,
-				C89C8741E2E06B9BD0A2195B7124A9EB /* RZCrashProtectHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,7 +621,7 @@
 		};
 		D8876A18B4D842D2491961F5803460D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21C02254B829366B9F843A10B90494A0 /* RZCrashKit.xcconfig */;
+			baseConfigurationReference = 3863AAA9F36994F757C1E0BA48FC534B /* RZCrashKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -669,7 +651,7 @@
 		};
 		DA8415BBB216CA63C72ED46B485869F4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21C02254B829366B9F843A10B90494A0 /* RZCrashKit.xcconfig */;
+			baseConfigurationReference = 3863AAA9F36994F757C1E0BA48FC534B /* RZCrashKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
