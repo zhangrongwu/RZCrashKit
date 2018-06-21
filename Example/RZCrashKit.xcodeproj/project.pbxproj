@@ -69,7 +69,7 @@
 		B90C4FB9F638409FD33BDF88 /* Pods_RZCrashKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RZCrashKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE218ACDACF5D8AE9C4EEC4 /* Pods-RZCrashKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RZCrashKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RZCrashKit_Tests/Pods-RZCrashKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C54968D910AB22BA80DD677D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EDA2DBBBEB89DF7748C183DE /* RZCrashKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RZCrashKit.podspec; path = ../RZCrashKit.podspec; sourceTree = "<group>"; };
+		EDA2DBBBEB89DF7748C183DE /* RZCrashKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RZCrashKit.podspec; path = ../RZCrashKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
