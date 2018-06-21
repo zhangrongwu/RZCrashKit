@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.public_header_files = 'RZCrashKit/Headers/*.h'
+  s.public_header_files = 'RZCrashKit/**/*.h'
 
   s.source_files = 'RZCrashKit/**/*.{h,m,bundle}'
   
