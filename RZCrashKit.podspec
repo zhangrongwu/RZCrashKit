@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RZCrashKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of RZCrashKit.'
+  s.version          = '0.7.8.5'
+  s.summary          = '针对iOS开发过程中可能出现的闪退处理'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "结合Runtime消息转发、Runtime方法替换、Aspect_hook切面处理等进行动态处理iOSapp可能会产生的错误异常"
 
   s.homepage         = 'https://github.com/zhangrongwu/RZCrashKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -30,13 +28,14 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'RZCrashKit/Classes/**/*'
+  s.public_header_files = 'RZCrashKit/Headers/*.h'
+
+  s.source_files = 'RZCrashKit/**/*.{h,m,bundle}'
   
   # s.resource_bundles = {
   #   'RZCrashKit' => ['RZCrashKit/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

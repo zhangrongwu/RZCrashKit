@@ -1,0 +1,16 @@
+PODS:
+  - RZCrashKit (0.7.8.5)
+
+DEPENDENCIES:
+  - RZCrashKit (from `../`)
+
+EXTERNAL SOURCES:
+  RZCrashKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RZCrashKit: 3f64868bde8df85138342ec0407c1fa385c0309c
+
+PODFILE CHECKSUM: 86e956c028491dd4e895659ac9a7b44396c79caa
+
+COCOAPODS: 1.5.3
