@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RZCrashKit_Example' do
+  pod 'RZCrashKit', :path => '../'
+
+  target 'RZCrashKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
