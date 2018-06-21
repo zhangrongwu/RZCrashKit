@@ -27,11 +27,12 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  
+  s.source_files = 'RZCrashKit/Classes/*.{h,m,bundle}'
 
   s.public_header_files = 'RZCrashKit/Classes/*.h'
 
-  s.source_files = 'RZCrashKit/Classes/*.{h,m,bundle}'
-  
+
   # s.resource_bundles = {
   #   'RZCrashKit' => ['RZCrashKit/Assets/*.png']
   # }
