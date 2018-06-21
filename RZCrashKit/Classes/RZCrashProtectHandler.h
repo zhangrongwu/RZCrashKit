@@ -9,4 +9,7 @@
 
 @interface RZCrashProtectHandler : NSObject
 
+@property (nonatomic, strong)NSString *crashMessages;
+
+- (void)RZCrashProtectCollectCrashMessages;
 @end

@@ -8,5 +8,7 @@
 #import "RZCrashProtectHandler.h"
 
 @implementation RZCrashProtectHandler
-
+- (void)RZCrashProtectCollectCrashMessages {
+    NSLog(@"%@", _crashMessages);
+}
 @end

@@ -18,8 +18,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    UIButton *btn = [[UIButton alloc] init];
+    btn.frame = CGRectMake(10, 55, self.view.frame.size.width - 2 * 10, 50);
+    [btn setTitle:@"发消息" forState:UIControlStateNormal];
+    btn.backgroundColor = [UIColor redColor];
+    [btn addTarget:self action:@selector(messageBtnClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
 }
 
+//- (void)messageBtnClick {
+//
+//}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
