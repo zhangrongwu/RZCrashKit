@@ -28,9 +28,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.public_header_files = 'RZCrashKit/*.h'
+  s.public_header_files = 'RZCrashKit/Classes/*.h'
 
-  s.source_files = 'RZCrashKit/**/*.{h,m,bundle}'
+  s.source_files = 'RZCrashKit/Classes/*.{h,m,bundle}'
   
   # s.resource_bundles = {
   #   'RZCrashKit' => ['RZCrashKit/Assets/*.png']
