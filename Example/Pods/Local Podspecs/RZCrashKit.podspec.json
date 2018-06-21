@@ -19,5 +19,5 @@
     "ios": "8.0"
   },
   "source_files": "RZCrashKit/**/*.{h,m,bundle}",
-  "public_header_files": "RZCrashKit/**/*.h"
+  "public_header_files": "RZCrashKit/Headers/*.h"
 }

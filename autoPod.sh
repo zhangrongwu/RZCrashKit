@@ -3,10 +3,10 @@
 #该脚本仅适用于cocoapods生成的framework静态库
 frameworkName='RZCrashKit'
 #修改
-oldversion='0.7.8.5'
+oldversion='0.7.8.6'
 #修改
-version='0.7.8.6'
-message='${version}版本'
+version='0.7.8.7'
+message='${version}pod版本发布'
 
 cd Example
 pod install

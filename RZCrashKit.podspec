@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   
   s.source_files = 'RZCrashKit/**/*.{h,m,bundle}'
 
-  s.public_header_files = 'RZCrashKit/**/*.h'
+  s.public_header_files = 'RZCrashKit/Headers/*.h'
 
 
   # s.resource_bundles = {

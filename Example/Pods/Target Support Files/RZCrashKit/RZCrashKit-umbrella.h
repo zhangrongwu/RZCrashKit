@@ -10,8 +10,6 @@
 #endif
 #endif
 
-#import "NSObject+RZCrashProtect.h"
-#import "RZCrashProtectHandler.h"
 #import "RZCrashKit.h"
 
 FOUNDATION_EXPORT double RZCrashKitVersionNumber;
